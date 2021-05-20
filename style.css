@@ -1,0 +1,135 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  background-color: hsl(233, 47%, 7%);
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+}
+
+section {
+  display: flex;
+  background-color: hsl(244, 38%, 16%);
+  max-width: 69.375rem;
+  max-height: 28.125rem;
+  margin: 11.125rem auto;
+  box-sizing: border-box;
+  padding: 0;
+  border-radius: 0.75rem;
+}
+
+section img {
+  float: right;
+  width: 33.75rem;
+  height: 100%;
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+  opacity: 0.6;
+}
+
+.filter {
+  background-color: hsl(277, 64%, 61%);
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+  height: auto;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+.text {
+  padding: 5rem;
+  box-sizing: border-box;
+}
+
+.main h1 {
+  font-size: 1.8125rem;
+}
+
+.main p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.statistics {
+  font-family: "Lexend Deca", sans-serif;
+  position: relative;
+  display: inline-flex;
+}
+
+.statistics p {
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+}
+
+.singleS {
+  position: relative;
+  margin-block-end: 5.0625rem;
+  margin-right: 4.0625rem;
+}
+
+.singleS p {
+  margin-top: 0.01rem;
+}
+
+@media only screen and (max-width: 1300px) {
+  section {
+    width: 20.5rem;
+    min-height: 59.6875rem;
+    margin: 5.5rem auto;
+    display: block;
+    z-index: -1;
+  }
+
+  section img {
+    float: top;
+    height: 15rem;
+    width: 100%;
+    border-top-right-radius: 0.75rem;
+    border-top-left-radius: 0.75rem;
+    border-bottom-right-radius: 0;
+    opacity: 0.6;
+  }
+
+  .filter {
+    height: 15rem;
+    position: relative;
+    bottom: 49.43rem;
+    border-top-right-radius: 0.75rem;
+    border-top-left-radius: 0.75rem;
+    border-bottom-right-radius: 0;
+    z-index: 1;
+  }
+
+  .text {
+    text-align: center;
+    position: relative;
+    top: 15rem;
+    width: 20.5rem;
+    height: 100%;
+    font-size: 0.8125rem;
+    justify-content: center;
+    padding: 2.8125rem;
+  }
+
+  .text h1 {
+    font-size: 1.5rem;
+  }
+
+  .singleS {
+    position: relative;
+    margin-top: 0.2rem;
+    margin-right: 0;
+  }
+
+  .statistics {
+    position: none;
+    display: unset;
+    padding: 2rem;
+  }
+}
